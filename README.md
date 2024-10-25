@@ -22,3 +22,9 @@ src/
 │       └── UserController.ts
 └── index.ts
 ```
+# Install Dependencies 
+
+```bash
+npm i express typeorm reflect-metadata class-transformer class-validator mssql zod bcrypt
+npm i typescript ts-node-dev @types/node @types/express @types/bcrypt -D
+```
