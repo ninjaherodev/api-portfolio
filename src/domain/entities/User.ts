@@ -19,7 +19,7 @@ export class User {
 
   // Token to handle refresh tokens for JWT-based sessions
   @Column({ nullable: true })
-  refreshToken?: string;
+    refreshToken?: string
 
   @CreateDateColumn()
     createdAt!: Date
